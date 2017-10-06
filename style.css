@@ -1,0 +1,195 @@
+ body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    /*background-color: #c4c1c1;*/
+    color: #474e5d;;
+    background: url("https://raw.githubusercontent.com/shiricastro/Personal-Page/master/img/s.png") repeat-x fixed, url("https://raw.githubusercontent.com/shiricastro/Personal-Page/master/img/sky.png") no-repeat  fixed;
+	animation-name: stars;
+	animation-duration: 50s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	background-size: 500px,100% 500px;
+	background-color: #e6e6e6;
+  }
+  @keyframes stars {
+    from {background-position: top left , top;}
+    to {background-position: top right, top;}
+}
+  .bg-2 { 
+      background-color: #474e5d;
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff;
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f;
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .icon-bar{
+	background-color: white !important;
+}
+	.navbar-header button{
+		background-color: #c4c1c1;
+	}
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+      background-color: rgba(0,0,0,0.8);
+	box-shadow: 0 20px 5px 0 rgba(0,0,0,0.4), 0 10px 20px 0 rgba(0,0,0,0.4);
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  #me h3{
+  	margin-top: 40px;
+  }
+  .cube{
+	height: 250px;
+	width: 270px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	position: relative;
+	box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.7), 0 10px 20px 0 rgba(0,0,0,0.7);
+}
+.wrap{
+	/*height: 368px;*/
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 92%;
+    margin: 0 auto;
+}
+#school{
+	background-image: url("school.jpg");
+	background-size: cover;
+}
+#flags{
+	background-image: url("flags.jpg");
+	background-size: cover;
+}
+#catalog{
+	background-image: url("catalog.jpg");
+	background-size: cover;
+}
+#world{
+	background-image: url("world.jpg");
+	background-size: cover;
+}
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.8);
+  overflow: hidden;
+  width: 270px;
+  margin: 0 auto;
+  height:0;
+  transition: .5s ease;
+  text-align: center !important;
+}
+.overlay h3{
+	color: white;
+}
+#catalog:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+#school:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+#flags:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+#world:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  text-align: center;
+  font-size: 16px;
+  position: absolute;
+  padding: 10px;
+  color: white;
+}
+.click{
+	display: block;
+	margin-top: 10px;
+}
+.click button{
+	height: 40px;
+	border: none;
+	outline: none;
+	border-radius: 2px;
+	box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+}
+.fa{
+	padding: 20px;
+	/*font-size: 30px;*/
+	width: 40px;
+	height: 40px;
+	text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+}
+.fa-facebook{
+	background: #3B5998;
+}
+.fa-linkedin{
+	background: #007bb5;
+}
+hr{
+	height: 1px;
+	width: 200px;
+}
+.media-links a:hover, .media-links a:focus{
+	color: white !important;
+	text-decoration: none !important;
+}
+.media-links a{
+	text-align: center;
+}
+#top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #c4c1c1;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 21px 1px rgba(0,0,0,0.75);
+}
+.fa-long-arrow-right{
+	color: black !important;
+	padding: 0 !important;
+	font-size: 28px;
+	display: none;
+}
+a button{
+	width: 95px;
+}
