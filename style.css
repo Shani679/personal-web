@@ -6,15 +6,14 @@
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
   .bg-1 { 
-    /*background-color: #c4c1c1;*/
     color: #474e5d;;
     background: url("https://raw.githubusercontent.com/shiricastro/Personal-Page/master/img/s.png") repeat-x fixed, url("https://raw.githubusercontent.com/shiricastro/Personal-Page/master/img/sky.png") no-repeat  fixed;
-	animation-name: stars;
-	animation-duration: 50s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
-	background-size: 500px,100% 500px;
-	background-color: #e6e6e6;
+  	animation-name: stars;
+  	animation-duration: 50s;
+  	animation-timing-function: linear;
+  	animation-iteration-count: infinite;
+  	background-size: 500px,100% 500px;
+  	background-color: #e6e6e6;
   }
   @keyframes stars {
     from {background-position: top left , top;}
@@ -68,12 +67,11 @@
 	box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.7), 0 10px 20px 0 rgba(0,0,0,0.7);
 }
 .wrap{
-	/*height: 368px;*/
 	display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 92%;
-    margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 92%;
+  margin: 0 auto;
 }
 #school{
 	background-image: url("school.jpg");
@@ -90,6 +88,10 @@
 #world{
 	background-image: url("world.jpg");
 	background-size: cover;
+}
+#player{
+  background-image: url("playlist.jpg");
+  background-size: cover;
 }
 .overlay {
   position: absolute;
@@ -119,7 +121,7 @@
   bottom: 0;
   height: 100%;
 }
-#world:hover .overlay {
+#world:hover .overlay, #player:hover .overlay {
   bottom: 0;
   height: 100%;
 }
@@ -144,13 +146,12 @@
 }
 .fa{
 	padding: 20px;
-	/*font-size: 30px;*/
 	width: 40px;
 	height: 40px;
 	text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    color: white;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: white;
 }
 .fa-facebook{
 	background: #3B5998;
