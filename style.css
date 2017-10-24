@@ -59,12 +59,12 @@
   	margin-top: 40px;
   }
   .cube{
-	height: 250px;
-	width: 270px;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	position: relative;
-	box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.7), 0 10px 20px 0 rgba(0,0,0,0.7);
+  	height: 250px;
+  	width: 270px;
+  	margin-right: 20px;
+  	margin-bottom: 20px;
+  	position: relative;
+  	box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.7), 0 10px 20px 0 rgba(0,0,0,0.7);
 }
 .wrap{
 	display: flex;
@@ -74,23 +74,23 @@
   margin: 0 auto;
 }
 #school{
-	background-image: url("school.jpg");
+	background-image: url("images/school.jpg");
 	background-size: cover;
 }
 #flags{
-	background-image: url("flags.jpg");
+	background-image: url("images/flags.jpg");
 	background-size: cover;
 }
 #catalog{
-	background-image: url("catalog.jpg");
+	background-image: url("images/catalog.jpg");
 	background-size: cover;
 }
 #world{
-	background-image: url("world.jpg");
+	background-image: url("images/world.jpg");
 	background-size: cover;
 }
 #player{
-  background-image: url("playlist.jpg");
+  background-image: url("images/playlist.jpg");
   background-size: cover;
 }
 .overlay {
