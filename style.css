@@ -1,70 +1,74 @@
- body {
-      font: 20px Montserrat, sans-serif;
-      line-height: 1.8;
-      color: #f5f6f7;
-  }
-  p {font-size: 16px;}
-  .margin {margin-bottom: 45px;}
-  .bg-1 { 
-    color: #474e5d;;
-    background: url("https://raw.githubusercontent.com/shiricastro/Personal-Page/master/img/s.png") repeat-x fixed, url("https://raw.githubusercontent.com/shiricastro/Personal-Page/master/img/sky.png") no-repeat  fixed;
-  	animation-name: stars;
-  	animation-duration: 50s;
-  	animation-timing-function: linear;
-  	animation-iteration-count: infinite;
-  	background-size: 500px,100% 500px;
-  	background-color: #e6e6e6;
-  }
-  @keyframes stars {
-    from {background-position: top left , top;}
-    to {background-position: top right, top;}
+body {
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
 }
-  .bg-2 { 
-      background-color: #474e5d;
-      color: #ffffff;
-  }
-  .bg-3 { 
-      background-color: #ffffff;
-      color: #555555;
-  }
-  .bg-4 { 
-      background-color: #2f2f2f;
-      color: #fff;
-  }
-  .container-fluid {
-      padding-top: 70px;
-      padding-bottom: 70px;
-  }
-  .icon-bar{
+p {
+  font-size: 16px;
+}
+.margin {
+  margin-bottom: 45px;
+}
+.bg-1 { 
+  color: #474e5d;;
+  background: url("https://raw.githubusercontent.com/shiricastro/Personal-Page/master/img/s.png") repeat-x fixed, url("https://raw.githubusercontent.com/shiricastro/Personal-Page/master/img/sky.png") no-repeat  fixed;
+  animation-name: stars;
+  animation-duration: 50s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  background-size: 500px,100% 500px;
+  background-color: #e6e6e6;
+}
+@keyframes stars {
+  from {background-position: top left , top;}
+  to {background-position: top right, top;}
+}
+.bg-2 { 
+  background-color: #474e5d;
+  color: #ffffff;
+}
+.bg-3 { 
+  background-color: #ffffff;
+  color: #555555;
+}
+.bg-4 { 
+  background-color: #2f2f2f;
+  color: #fff;
+}
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.icon-bar{
 	background-color: white !important;
 }
-	.navbar-header button{
-		background-color: #c4c1c1;
-	}
-  .navbar {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      border: 0;
-      border-radius: 0;
-      margin-bottom: 0;
-      font-size: 12px;
-      letter-spacing: 5px;
-      background-color: rgba(0,0,0,0.8);
+.navbar-header button{
+	background-color: #c4c1c1;
+}
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+  background-color: rgba(0,0,0,0.8);
 	box-shadow: 0 20px 5px 0 rgba(0,0,0,0.4), 0 10px 20px 0 rgba(0,0,0,0.4);
-  }
-  .navbar-nav  li a:hover {
-      color: #1abc9c !important;
-  }
-  #me h3{
-  	margin-top: 40px;
-  }
-  .cube{
-  	height: 250px;
-  	width: 270px;
-  	margin-right: 20px;
-  	margin-bottom: 20px;
-  	position: relative;
-  	box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.7), 0 10px 20px 0 rgba(0,0,0,0.7);
+}
+.navbar-nav  li a:hover {
+  color: #1abc9c !important;
+}
+#me h3{
+  margin-top: 40px;
+}
+.cube{
+  height: 250px;
+  width: 270px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.7), 0 10px 20px 0 rgba(0,0,0,0.7);
 }
 .wrap{
 	display: flex;
@@ -145,7 +149,7 @@
 	box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
 }
 .fa{
-	padding: 20px;
+	padding-top: 10px;
 	width: 40px;
 	height: 40px;
 	text-align: center;
@@ -158,6 +162,9 @@
 }
 .fa-linkedin{
 	background: #007bb5;
+}
+.fa-github{
+  background: #24292e;
 }
 hr{
 	height: 1px;
