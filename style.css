@@ -241,3 +241,8 @@ a:focus, a:hover{
   font-size: 30px;
   margin-bottom: 30px;
 }
+.bold{
+	text-decoration: underline;
+	font-weight: bold;
+	color: crimson;
+}
