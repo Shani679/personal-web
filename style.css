@@ -95,6 +95,14 @@ p {
   background-image: url("images/playlist.jpg");
   background-size: cover;
 }
+#game{
+  background-image: url("https://image.prntscr.com/image/4qu_8A-9QteDHXeh7EcSlA.png");
+  background-size: cover;
+}
+#supermarket{
+  background-image: url("https://image.prntscr.com/image/1N6dDew-Q9KA2cFwBPZcgQ.png");
+  background-size: cover;
+}
 .overlay {
   position: absolute;
   bottom: 100%;
@@ -123,7 +131,7 @@ p {
   bottom: 0;
   height: 100%;
 }
-#world:hover .overlay, #player:hover .overlay {
+#world:hover .overlay, #player:hover .overlay, #game:hover .overlay, #supermarket:hover .overlay {
   bottom: 0;
   height: 100%;
 }
