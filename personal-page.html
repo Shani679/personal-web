@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -13,6 +13,144 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
- 
-  </body>
+  <div class="modal-wrap flex">
+    <div class="mask"></div>
+    <div class="modal" id="modal" style="max-width: 700px;">
+      <div class="carousel-wrap" style="width: 700px;">
+        <div class="window">
+          <div id="carousel" style="left: -700px;">
+          <div class="slide" style="width: 700px;"></div>
+          <div class="slide" style="width: 700px;"></div>
+          <div class="slide" style="width: 700px;"></div>
+          </div>
+          <i class="mdi mdi-chevron-left" id="prev"></i>
+          <i class="mdi mdi-chevron-right" id="next"></i>
+        </div>
+
+      </div>
+      <div class="info-box">
+        <div class="title"></div>
+        <div class="tag"></div>
+        <div class="detail"></div>
+        <a href="#" target="_blank"><div class="button"><i class="mdi mdi-open-in-new"></i>VIEW SITE</div></a>
+      </div>
+      <i class="close mdi mdi-close"></i>
+    </div>
+  </div>
+  <section id="home" class="flex">
+    <div class="flex">
+      <div class="text">
+        Hello, I'm <span class="highlight">Shani Patael</span>.
+        <br>
+        I'm a Full-Stack Web Developer.
+      </div>
+      <div class="button page-link" dest="about">View my work <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+      <nav class="flex desk">
+        <div class="link-wrap">
+          <div class="page-link active" dest="home">home</div>
+          <div class="page-link" dest="about">about</div>
+          <div class="page-link" dest="portfolio">portfolio</div>
+          <div class="page-link" dest="contact">contact</div>
+        </div>
+        <i class="mdi mdi-menu"></i>
+      </nav>
+    </div>
+  </section>
+  <section id="about">
+    <div class="container flex">
+
+      <div class="header waypoint animated slide-in-left" data-animation="slide-in-left">ABOUT</div>
+      <div class="header-bar waypoint animated slide-in-left" data-animation="slide-in-left" data-delay=".5s" style="animation-delay: 0.5s;"></div>
+      <div class="skills-wrapper flex row-gt-sm">
+        <div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
+          <img src="images/me.jpg" class="me">
+          <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
+          <div class="label bold">Who's this guy?</div>
+          <div>
+            I'm the Front-End Developer for <a class="highlight" href="http://www.eyecuelab.com" target="_blank">EyeCue Lab</a> in Portland, OR.
+            <br>
+            I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
+            <br>
+            <span class="page-link highlight" dest="contact">Let's make something special.</span>
+          </div>
+        </div>
+
+        <div class="flex flex-50-gt-sm waypoint bars-wrap" data-animation="slide-in-right">
+          <div class="bar flex">
+            <div class="bar fill" style="width:75%">
+              <div class="tag bold flex">CSS</div>
+            </div>
+            <span>80%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:85%">
+              <div class="tag bold flex">HTML</div>
+            </div>
+            <span>90%</span>
+          </div>
+
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:65%">
+              <div class="tag bold flex">React</div>
+            </div>
+            <span>70%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:80%">
+              <div class="tag bold flex">JavaScript</div>
+            </div>
+            <span>80%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:65%">
+              <div class="tag bold flex">Angular</div>
+            </div>
+            <span>70%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:55%">
+              <div class="tag bold flex">Node.js</div>
+            </div>
+            <span>50%</span>
+          </div>
+
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:65%">
+              <div class="tag bold flex">Ruby/Rails</div>
+            </div>
+            <span>70%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:55%">
+              <div class="tag bold flex">UI Design</div>
+            </div>
+            <span>50%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:60%">
+              <div class="tag bold flex">Photoshop</div>
+            </div>
+            <span>60%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:45%">
+              <div class="tag bold flex">Illustrator</div>
+            </div>
+            <span>40%</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
 </html>
