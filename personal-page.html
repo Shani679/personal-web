@@ -7,36 +7,13 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="png" href="https://scrubitblog.files.wordpress.com/2017/02/icon-highres.png?w=634">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="jquery.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div class="modal-wrap flex">
-    <div class="mask"></div>
-    <div class="modal" id="modal" style="max-width: 700px;">
-      <div class="carousel-wrap" style="width: 700px;">
-        <div class="window">
-          <div id="carousel" style="left: -700px;">
-          <div class="slide" style="width: 700px;"></div>
-          <div class="slide" style="width: 700px;"></div>
-          <div class="slide" style="width: 700px;"></div>
-          </div>
-          <i class="mdi mdi-chevron-left" id="prev"></i>
-          <i class="mdi mdi-chevron-right" id="next"></i>
-        </div>
-
-      </div>
-      <div class="info-box">
-        <div class="title"></div>
-        <div class="tag"></div>
-        <div class="detail"></div>
-        <a href="#" target="_blank"><div class="button"><i class="mdi mdi-open-in-new"></i>VIEW SITE</div></a>
-      </div>
-      <i class="close mdi mdi-close"></i>
-    </div>
-  </div>
   <section id="home" class="flex">
     <div class="flex">
       <div class="text">
@@ -58,99 +35,283 @@
   </section>
   <section id="about">
     <div class="container flex">
-
       <div class="header waypoint animated slide-in-left" data-animation="slide-in-left">ABOUT</div>
       <div class="header-bar waypoint animated slide-in-left" data-animation="slide-in-left" data-delay=".5s" style="animation-delay: 0.5s;"></div>
       <div class="skills-wrapper flex row-gt-sm">
-        <div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
+        <div class="flex flex-50-gt-sm waypoint animated slide-in-left" data-animation="slide-in-left">
           <img src="images/me.jpg" class="me">
-          <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
-          <div class="label bold">Who's this guy?</div>
-          <div>
-            I'm the Front-End Developer for <a class="highlight" href="http://www.eyecuelab.com" target="_blank">EyeCue Lab</a> in Portland, OR.
-            <br>
-            I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
-            <br>
-            <span class="page-link highlight" dest="contact">Let's make something special.</span>
-          </div>
+          <h2>Who Am I?</h2>
+          <p>
+            My name is Shani and I am a Full Stack Web Developer. I have proven knowledge in performing projects with web technologies and frameworks such as AngularJS, React, Node js, Ajax, Bootstrap and more. In the following links you can get a quick glimpse at some of the projects accomplished by me.
+          </p>
         </div>
-
-        <div class="flex flex-50-gt-sm waypoint bars-wrap" data-animation="slide-in-right">
-          <div class="bar flex">
-            <div class="bar fill" style="width:75%">
-              <div class="tag bold flex">CSS</div>
-            </div>
-            <span>80%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:85%">
-              <div class="tag bold flex">HTML</div>
-            </div>
-            <span>90%</span>
-          </div>
-
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:65%">
-              <div class="tag bold flex">React</div>
-            </div>
-            <span>70%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:80%">
-              <div class="tag bold flex">JavaScript</div>
-            </div>
-            <span>80%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:65%">
-              <div class="tag bold flex">Angular</div>
-            </div>
-            <span>70%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:55%">
-              <div class="tag bold flex">Node.js</div>
-            </div>
-            <span>50%</span>
-          </div>
-
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:65%">
-              <div class="tag bold flex">Ruby/Rails</div>
-            </div>
-            <span>70%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:55%">
-              <div class="tag bold flex">UI Design</div>
-            </div>
-            <span>50%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:60%">
-              <div class="tag bold flex">Photoshop</div>
-            </div>
-            <span>60%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:45%">
-              <div class="tag bold flex">Illustrator</div>
-            </div>
-            <span>40%</span>
-          </div>
-
+        <div class="flex flex-50-gt-sm waypoint bars-wrap animated slide-in-right" id="skills" data-animation="slide-in-right">
+          <div>HTML5</div>
+          <div>CSS3</div>
+          <div>BOOTSTRAP</div>
+          <div>JavaScript</div>
+          <div>ES6</div>
+          <div>JQUERY</div>
+          <div>AJAX</div>
+          <div>Angular js</div>
+          <div>React js</div>
+          <div>Node js</div>
+          <div>Express js</div>
+          <div>RESTful API</div>
+          <div>Async</div>
+          <div>PHP</div>
+          <div>OOP</div>
+          <div>Mongo DB</div>
+          <div>SQL</div>
+          <div>Firebase</div>
+          <div>Git</div>
         </div>
       </div>
     </div>
   </section>
+  <section id="portfolio" class="flex">
+    <div class="header waypoint animated slide-in-right" data-animation="slide-in-right">PROJECTS</div>
+    <div class="header-bar waypoint animated slide-in-right" data-animation="slide-in-right" data-delay=".3s" style="animation-delay: 0.3s;"></div>
+    <div id="portfolio-wrapper">
+      <div class="project-wrapper animated slide-in-left">
+        <img src="https://image.prntscr.com/image/1N6dDew-Q9KA2cFwBPZcgQ.png">
+        <div class="overlay">
+          <h3>Online Supermarket</h3>
+          <h5>Built with:</h5>
+          <table>
+            <thead>
+              <tr>
+                <td>Client</td>
+                <td>Server</td>
+                <td>Database</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Html5</td>
+                <td>Node js</td>
+                <td>Mongo DB</td>
+              </tr>
+              <tr>
+                <td>CSS3</td>
+                <td>Express js</td>
+              </tr>
+              <tr>
+                <td>Bootstrap</td>
+              </tr>
+              <tr>
+                <td>Angular js</td>
+              </tr>
+            </tbody>
+          </table>
+          <a href="https://github.com/Shani679/shopping" target="_blank">
+            <div class="button-link">VIEW CODE</div>
+          </a>
+        </div>
+      </div>
+      <div class="project-wrapper animated slide-in-left">
+        <img src="images/playlist.jpg">
+        <div class="overlay">
+          <h3>Music Player</h3>
+          <h5>Built with:</h5>
+          <table>
+            <thead>
+              <tr>
+                <td>Client</td>
+                <td>Server</td>
+                <td>Database</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Html5</td>
+                <td>Node js</td>
+                <td>Mongo DB</td>
+              </tr>
+              <tr>
+                <td>CSS3</td>
+                <td>Express js</td>
+              </tr>
+              <tr>
+                <td>Bootstrap</td>
+              </tr>
+              <tr>
+                <td>JQUERY</td>
+              </tr>
+            </tbody>
+          </table>
+          <a href="http://104.131.56.170/" target="_blank">
+            <div class="button-link">LIVE VERSION</div>
+          </a>
+        </div>
+      </div>
+      <div class="project-wrapper animated slide-in-left">
+        <img src="https://image.prntscr.com/image/4qu_8A-9QteDHXeh7EcSlA.png">
+        <div class="overlay">
+          <h3>Guess The Number Game</h3>
+          <h5>Built with:</h5>
+          <table>
+            <tbody>
+              <tr>
+                <td>Html5</td>
+              </tr>
+              <tr>
+                <td>CSS3</td>
+              </tr>
+              <tr>
+                <td>Bootstrap</td>
+              </tr>
+              <tr>
+                <td>Angular js</td>
+              </tr>
+            </tbody>
+          </table>
+          <a href="https://shani679.github.io/Guess-Game/" target="_blank">
+            <div class="button-link">LIVE VERSION</div>
+          </a>
+        </div>
+      </div>
+      <div class="project-wrapper animated slide-in-left">
+        <img src="images/school.jpg">
+        <div class="overlay">
+          <h3>School Website</h3>
+          <h5>Built with:</h5>
+          <table>
+            <thead>
+              <tr>
+                <td>Client</td>
+                <td>Server</td>
+                <td>Database</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Html5</td>
+                <td>PHP</td>
+                <td>SQL</td>
+              </tr>
+              <tr>
+                <td>CSS3</td>
+              </tr>
+              <tr>
+                <td>Bootstrap</td>
+              </tr>
+              <tr>
+                <td>JQUERY</td>
+              </tr>
+            </tbody>
+          </table>
+          <a href="https://shani-projects.000webhostapp.com/theschool/client/login.html" target="_blank">
+            <div class="button-link">LIVE VERSION</div>
+          </a>
+        </div>
+      </div>
+       <div class="project-wrapper animated slide-in-left">
+        <img src="images/flags.jpg">
+        <div class="overlay">
+          <h3>Flags Quiz</h3>
+          <h5>Built with:</h5>
+          <table>
+            <tbody>
+              <tr>
+                <td>Html5</td>
+              </tr>
+              <tr>
+                <td>CSS3</td>
+              </tr>
+              <tr>
+                <td>Bootstrap</td>
+              </tr>
+              <tr>
+                <td>Angular js</td>
+              </tr>
+            </tbody>
+          </table>
+          <a href="https://shani-projects.000webhostapp.com/quiz/index.html" target="_blank">
+            <div class="button-link">LIVE VERSION</div>
+          </a>
+        </div>
+      </div>
+       <div class="project-wrapper animated slide-in-left">
+        <img src="images/catalog.jpg">
+        <div class="overlay">
+          <h3>Gifts Catalog</h3>
+          <h5>Built with:</h5>
+          <table>
+            <tbody>
+              <tr>
+                <td>Html5</td>
+              </tr>
+              <tr>
+                <td>CSS3</td>
+              </tr>
+              <tr>
+                <td>Bootstrap</td>
+              </tr>
+              <tr>
+                <td>Angular js</td>
+              </tr>
+            </tbody>
+          </table>
+          <a href="https://shani679.github.io/store/" target="_blank">
+            <div class="button-link">LIVE VERSION</div>
+          </a>
+        </div>
+      </div>
+      <div class="project-wrapper animated slide-in-left">
+        <img src="images/world.jpg">
+        <div class="overlay">
+          <h3>World Countries</h3>
+          <h5>Built with:</h5>
+          <table>
+            <tbody>
+              <tr>
+                <td>Html5</td>
+              </tr>
+              <tr>
+                <td>CSS3</td>
+              </tr>
+              <tr>
+                <td>Angular js</td>
+              </tr>
+              <tr>
+                <td>Google maps</td>
+              </tr>
+            </tbody>
+          </table>
+          <a href="https://shani679.github.io/countries/#!/charts" target="_blank">
+            <div class="button-link">LIVE VERSION</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container flex">
+      <div class="header waypoint animated slide-in-left" data-animation="slide-in-left">CONTACT</div>
+      <div class="header-bar waypoint animated slide-in-right" data-animation="slide-in-right" data-delay=".25s" style="animation-delay: 0.25s;"></div>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Ramat Gan, Israel</p>
+      <p><span class="glyphicon glyphicon-phone"></span> 054-7680367</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:shani2421@gmail.com">shani2421@gmail.com</a></p>
+    </div>
+  </section>
+  <footer>
+    <i class="mdi mdi-chevron-double-up page-link fa fa-angle-double-up" dest="home"></i>
+    <div class="icon-wrap flex row">
+      <a href="https://www.linkedin.com/in/shani-patael-3878b7142/" target="_blank">
+        <div class="flex icon" id="icon-2">
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+      </a>
+      <a href="https://www.facebook.com/shani.patael.7" target="_blank">
+        <div class="flex icon" id="icon-3">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+        </div>
+      </a>
+    </div>
+    <div class="info-box">
+      <div class="footnote">SHANI PATAEL <span class="highlight">©2018</span></div>
+    </div>
+  </footer>
 </body>
 </html>
