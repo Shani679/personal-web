@@ -280,20 +280,6 @@ transform: rotate(0deg) scale(1.201) skew(1deg) translate(0px);
   backface-visibility: hidden;
   height: 337px;
 }
-/*.project-wrapper:hover{
-  color: #f5f5f5;
-  background: rgb(37, 41, 52);
-}
-.project-wrapper > div:first-child{
-  width: 250px;
-}
-.project-wrapper > div:nth-child(2){
-  width: 350px;
-  padding: 20px;
-}
-.project-wrapper > div > img{
-  width: 100%;
-}*/
 #portfolio-wrapper{
   display: flex;
   flex-wrap: wrap;
@@ -301,19 +287,6 @@ transform: rotate(0deg) scale(1.201) skew(1deg) translate(0px);
   width: 80%;
   position: relative;
 }
-/*a, a:hover, a:visited, a:focus, a:active{
-  display: block;
-  width: 150px;
-  margin: 0 auto;
-  background: #E31B6D;
-  padding: 10px;
-  text-align: center;
-  border-radius: 5px;
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-  outline: none;
-}*/
 .fixed {
   position: fixed;
   top: 0;
@@ -341,7 +314,7 @@ table{
   margin: 0 auto;
 }
 td{
-  width: 88px;
+  width: 104px;
 }
 thead td{
   font-weight: bold;
